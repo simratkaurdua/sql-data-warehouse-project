@@ -79,7 +79,7 @@ BEGIN
 		--------- crm table 2 ---------
 
 		PRINT '>> Truncating table: silver.crm_pred_info';
-		TRUNCATE TABLE silver.crm_cust_info
+		TRUNCATE TABLE silver.crm_pred_info
 		PRINT '>> Inserting data into : slver.crm_pred_info';
 
 		INSERT INTO silver.crm_pred_info ( 
@@ -119,7 +119,7 @@ BEGIN
 		--------- crm table 3 ---------
 
 		PRINT '>> Truncating table: silver.crm_sales_details';
-		TRUNCATE TABLE silver.crm_cust_info
+		TRUNCATE TABLE silver.crm_sales_details
 		PRINT '>> Inserting data into : slver.crm_sales_details';
 
 		INSERT INTO silver.crm_sales_details(
@@ -164,7 +164,7 @@ BEGIN
 		--------erp table 1---------------
 
 		PRINT '>> Truncating table: silver.erp_cust_az12';
-		TRUNCATE TABLE silver.crm_cust_info
+		TRUNCATE TABLE slver.erp_cust_az12
 		PRINT '>> Inserting data into : slver.erp_cust_az12';
 
 		INSERT INTO silver.erp_cust_az12(cid,bdate,gen)
@@ -186,7 +186,7 @@ BEGIN
 		--------- erp table 2 ----------
 
 		PRINT '>> Truncating table: silver.erp_loc_A101';
-		TRUNCATE TABLE silver.crm_cust_info
+		TRUNCATE TABLE slver.erp_loc_A101
 		PRINT '>> Inserting data into : slver.erp_loc_A101';
 
 		insert into silver.erp_loc_A101
@@ -204,7 +204,7 @@ BEGIN
 		--------- erp table 3 ----------
 
 		PRINT '>> Truncating table: silver.erp_px_cat_G1V2';
-		TRUNCATE TABLE silver.crm_cust_info
+		TRUNCATE TABLE slver.erp_px_cat_G1V2
 		PRINT '>> Inserting data into : slver.erp_px_cat_G1V2';
 
 		insert into silver.erp_px_cat_G1V2
